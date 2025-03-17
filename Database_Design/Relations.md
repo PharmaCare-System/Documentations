@@ -12,6 +12,7 @@
 | LastName  | nvarchar(25)           |
 | Email     | nvarchar(50)           |
 | phone     | nvarchar(15)           |
+| Address   | nvarchar(40)           |
 
 => <mark style="background: #FFB8EBA6;">Relations</mark>
 
@@ -239,6 +240,7 @@
 | Email      | nvarchar(50)           |
 | phone      | nvarchar(15)           |
 | HireDate   | Date                   |
+| Address    | nvarchar(40)           |
 
 => <mark style="background: #FFB8EBA6;">Relation</mark>
 1. pharmacist send messages ( 1 to N): Done
