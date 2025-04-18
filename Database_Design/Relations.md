@@ -285,6 +285,7 @@
 1. chat and customer (1 to 1 ): Done 
 2. chat and pharmacist ( N to N ): Done
 3. chat and messages ( 1 to N ): Done
+4. pharmacy and chat 1-N
 ---
 ## Message
 
