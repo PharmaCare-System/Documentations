@@ -296,6 +296,8 @@
 | SenderID   | FK: int  |
 | SenderType | ENUM     |
 | Message    | nvarchar |
+| MessageDate    | nvarchar |
+
 => <mark style="background: #FFB8EBA6;">Relation</mark>
 1. chat and messages ( 1 to N ): Done
 2. messages and customer (1 to N ): Done
