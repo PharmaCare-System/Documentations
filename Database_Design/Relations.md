@@ -25,8 +25,9 @@
 7. Customer Take Order ( 1 to N): Done
 
 
+-----
 
-**Customer_Address**
+**Address**
 
 | Column     | type         |
 | ---------- | ------------ |
@@ -36,6 +37,8 @@
 | Country    | nvarchar(50) |
 | City       | nvarchar(50) |
 
+=> <mark style="background: #FFB8EBA6;">Relation</mark>
+- Address for customer of pharmacist (polymorphic relations ship) 1-N
 -----
 
 ## Review
@@ -300,8 +303,7 @@
 
 => <mark style="background: #FFB8EBA6;">Relation</mark>
 1. chat and messages ( 1 to N ): Done
-2. messages and customer (1 to N ): Done
-3. Message and pharmacist ( 1 to N ): Done
+2. messages and Customer Or Pharmacist (polymorphic Relation ship) 1-N
 
 `SenderId`=> depend on senderType Column
 	1. if customer -> so it will be Customer Id
